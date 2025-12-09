@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/culturama-favico.png">
     <title>Pesquisa Culturam </title>
 </head>
 <body>
@@ -163,11 +164,18 @@
                         </textarea>
                         </fieldset>
  
-                </fieldset>
+                <fieldset>
+                    <legend>Confirmações</legend>
+                    <input type="checkbox" name="userLgpd" id="userLgpdTerm" value="accepted" required>
+                    <label for="userLgpdTerm">Eu aceito participar da pesquisa</label><br>
+                    <input type="checkbox" name="userGetResult" id="getResult" value="accepted">
+                    <label for="getResult">Desejo receber o resultado por email</label><br>
                 
+                </fieldset>
+                   
 
-
-                <button type="submit">Enviar</button>
+                 <button type="reset">Enviar</button>
+                <button type="submit">Limpar</button>
             </form>
         </section>
     </header>
