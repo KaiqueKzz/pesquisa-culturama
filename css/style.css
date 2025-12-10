@@ -16,11 +16,13 @@ body{
     background-color: #ff0000;
     font-family: 'Work Sans', sans-serif;
 }
+ 
 main{
     width: 100%;
     max-width: 700px;
     margin: 0 auto;
 }
+
 header{
     text-align: center;
     margin-bottom: 20px;
@@ -31,6 +33,7 @@ form{
     padding: 15px;
     border-radius: 10px
 }
+
 fieldset{
     padding: 15px;
     border: 1px solid #cccccc;
@@ -44,6 +47,34 @@ legend{
     padding: 0 5px;
 
 }
+
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+
+}
+
+textarea{   
+    min-height: 100px
+}
+
+input[type="radio"]
+input[type="checkbox"]{width: auto;}
+
+input[type="color"]{
+    width:40px;
+    padding: 0 5px;
+
+}
+
 
 
 
