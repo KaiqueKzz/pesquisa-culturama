@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap" rel="stylesheet">
-    <title>Pesquisa Culturam </title>
+    <title>Pesquisa Culturama </title>
 </head>
 <body>
     <main>
@@ -19,7 +19,7 @@
         </h1>
          </header>
         <section>
-            <form action="" method="get">
+            <form action="sucesso.html" method="get">
                 
                 <!-- DADOS PESSOAIS -->
                 <fieldset>
@@ -37,7 +37,9 @@
                 <input id="Email" type="email" name="userEmail" required>
                 <br>
                 <label for="Number">Telefone</label>
-                <input id="Number" type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + número">
+                <input id="Number" type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + número" aria-describedby="phonehelp">
+                
+                <small id="phonehelp">Prencha com 11 digitos no formato: DDD + numero sem espaço ou hifen</small>
                 <br>
                 <label for="Image">Upload de Foto</label>
                 <input id="Image" type="file" accept="image/s" name="userImage">
